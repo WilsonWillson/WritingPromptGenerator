@@ -17,7 +17,7 @@ public final class R {
         public static final int abc_slide_out_top=0x7f040005;
     }
     public static final class array {
-        public static final int country_arrays=0x7f0c0000;
+        public static final int setting_arrays=0x7f0c0000;
     }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
@@ -1698,7 +1698,7 @@ containing a value of this type.
         public static final int showHome=0x7f090011;
         public static final int showTitle=0x7f090012;
         public static final int spConflict=0x7f090044;
-        public static final int spLocations=0x7f090042;
+        public static final int spSetting=0x7f090042;
         public static final int spSubject=0x7f090043;
         public static final int split_action_bar=0x7f090004;
         public static final int submit_area=0x7f09003e;
@@ -1822,9 +1822,9 @@ containing a value of this type.
         public static final int action_settings=0x7f0a0011;
         public static final int app_name=0x7f0a000f;
         public static final int conflict_prompt=0x7f0a0014;
-        public static final int country_prompt=0x7f0a0013;
         public static final int hello_world=0x7f0a0010;
         public static final int setting_prompt=0x7f0a0012;
+        public static final int subject_prompt=0x7f0a0013;
     }
     public static final class style {
         /** 
