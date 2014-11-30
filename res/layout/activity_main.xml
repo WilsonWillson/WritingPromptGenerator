@@ -8,9 +8,55 @@
     android:paddingTop="@dimen/activity_vertical_margin"
     tools:context="com.example.writingpromptgenerator.MainActivity" >
 
+	 
+	<LinearLayout 
+    android:orientation="vertical" 
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent">
+     <TextView
+	       android:id="@+id/pokemon_name"
+	       android:layout_width="fill_parent"
+	       android:layout_height="wrap_content"
+	       android:text="Writing Prompt Generator"
+	       android:textSize="20sp" />
+     
     <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/hello_world" />
-
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="Select Setting"
+        android:textSize="20sp" />
+ 
+    <Spinner 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/spLocations"
+        android:prompt="@string/setting_prompt" 
+        android:entries="@array/country_arrays">
+    </Spinner>
+    
+    <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="Select Subejct" 
+        android:textSize="20sp" />
+ 
+    <Spinner 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/spSubject"
+        android:prompt="@string/setting_prompt">
+    </Spinner>
+   <TextView 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content" 
+        android:text="Select Conflict" 
+        android:textSize="20sp" />
+ 
+    <Spinner 
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" 
+        android:id="@+id/spConflict"
+        android:prompt="@string/setting_prompt">
+    </Spinner>
+</LinearLayout>
 </RelativeLayout>
