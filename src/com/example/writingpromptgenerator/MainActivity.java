@@ -15,6 +15,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
 import android.widget.Spinner;
+import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Intent;
 import android.util.Log;
@@ -70,13 +71,13 @@ public class MainActivity extends ActionBarActivity {
        
       	  @Override
       	  public void onClick(View v) {
-       
-      	    Toast.makeText(MainActivity.this,
-      		"User Choices : " + 
-                      "\nSetting : "+ String.valueOf(spSetting.getSelectedItem()) + 
-                      "\nSubject: "+ String.valueOf(spSubject.getSelectedItem()) +  
-                      "\nConflict: "+ String.valueOf(spConflict.getSelectedItem()),
-      			Toast.LENGTH_SHORT).show();
+      		TextView writingPrompt = (TextView) findViewById(R.id.prompt);
+      		String mssg;
+      	    mssg = "User Choices : " + 
+                    "\nSetting : "+ String.valueOf(spSetting.getSelectedItem()) + 
+                    "\nSubject: "+ String.valueOf(spSubject.getSelectedItem()) +  
+                    "\nConflict: "+ String.valueOf(spConflict.getSelectedItem());
+      	    writingPrompt.setText(mssg);
       	  }
        
       	});
