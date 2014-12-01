@@ -4,20 +4,22 @@
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
 	android:orientation="vertical"
-    tools:context="com.example.writingpromptgenerator.MainActivity"  >
-     <TextView
-	       android:id="@+id/pokemon_name"
-	       android:layout_width="fill_parent"
-	       android:layout_height="wrap_content"
-	       android:text="Writing Prompt Generator"
-	       android:textSize="20sp" />
-     
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" 
-        android:text="Select Setting"
-        android:entries="@array/setting_arrays"
-        android:textSize="20sp" />
+    tools:context="com.example.writingpromptgenerator.MainActivity" 
+    android:background="@drawable/background" >
+
+		<TextView
+		    android:id="@+id/pokemon_name"
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:text="Writing Prompt Generator"
+		    android:textSize="20sp" />
+
+		<TextView
+		    android:layout_width="fill_parent"
+		    android:layout_height="wrap_content"
+		    android:entries="@array/setting_arrays"
+		    android:text="Select Setting"
+		    android:textSize="20sp" />
  
     <Spinner 
         android:layout_width="match_parent"
@@ -40,10 +42,11 @@
         android:prompt="@string/subject_prompt"
          android:entries="@array/subject_arrays">
     </Spinner>
-   <TextView 
+
+    <TextView
         android:layout_width="fill_parent"
-        android:layout_height="wrap_content" 
-        android:text="Select Conflict" 
+        android:layout_height="wrap_content"
+        android:text="Select Conflict"
         android:textSize="20sp" />
  
     <Spinner 
@@ -56,10 +59,15 @@
 
     <Button
         android:id="@+id/button_send"
-        android:layout_width="wrap_content"
+        android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_centerInParent="true"
         android:text="Generate Writing Promt" />
+
+    <TextView
+        android:layout_width="302dp"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="@string/hello_world" />
 
 </LinearLayout>
 

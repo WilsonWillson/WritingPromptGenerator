@@ -8,8 +8,8 @@
     <string name="subject_prompt">Choose a Subject</string>
     <string name="conflict_prompt">Choose a Conflict</string>
     <string-array name="setting_arrays">
-        <item>Asia</item>
-        <item>Europe</item>
+        <item>America</item>
+        <item>The Fifty States</item>
         <item>Horror Locations</item>
         <item>War Locations</item>
     </string-array>
