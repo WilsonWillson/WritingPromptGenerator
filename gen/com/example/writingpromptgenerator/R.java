@@ -17,7 +17,9 @@ public final class R {
         public static final int abc_slide_out_top=0x7f040005;
     }
     public static final class array {
+        public static final int conflict_arrays=0x7f0c0002;
         public static final int setting_arrays=0x7f0c0000;
+        public static final int subject_arrays=0x7f0c0001;
     }
     public static final class attr {
         /**  Custom divider drawable to use for elements in the action bar. 
@@ -1652,11 +1654,12 @@ containing a value of this type.
         public static final int action_mode_bar=0x7f090030;
         public static final int action_mode_bar_stub=0x7f09002f;
         public static final int action_mode_close_button=0x7f090022;
-        public static final int action_settings=0x7f090045;
+        public static final int action_settings=0x7f090046;
         public static final int activity_chooser_view_content=0x7f090023;
         public static final int always=0x7f090014;
         public static final int beginning=0x7f09001b;
         public static final int bottom=0x7f09001e;
+        public static final int button_send=0x7f090045;
         public static final int checkbox=0x7f09002b;
         public static final int collapseActionView=0x7f090015;
         public static final int decor_content_parent=0x7f090031;
@@ -1759,8 +1762,9 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f030014;
         public static final int abc_search_view=0x7f030015;
         public static final int abc_simple_dropdown_hint=0x7f030016;
-        public static final int activity_main=0x7f030017;
-        public static final int support_simple_spinner_dropdown_item=0x7f030018;
+        public static final int activity_display_message=0x7f030017;
+        public static final int activity_main=0x7f030018;
+        public static final int support_simple_spinner_dropdown_item=0x7f030019;
     }
     public static final class menu {
         public static final int main=0x7f0d0000;

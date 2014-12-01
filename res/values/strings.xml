@@ -13,4 +13,14 @@
         <item>Horror Locations</item>
         <item>War Locations</item>
     </string-array>
+    <string-array name="subject_arrays">
+        <item>Hero</item>
+        <item>Villian</item>
+        <item>Subject</item>
+    </string-array>
+    <string-array name="conflict_arrays">
+        <item>War</item>
+        <item>Horror</item>
+        <item>Conflict</item>
+    </string-array>
 </resources>
