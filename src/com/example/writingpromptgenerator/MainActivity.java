@@ -14,7 +14,6 @@ import android.view.View.OnClickListener;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.Button;
-import android.widget.EditText;
 import android.widget.Spinner;
 import android.widget.Toast;
 import android.content.Intent;
@@ -36,19 +35,34 @@ public class MainActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 	 
+		//addItemsOnSpinner2();
 		addListenerOnButton();
 		addListenerOnSpinnerItemSelection();
 	}
-
+	
+	 public void addItemsOnSpinner2() {
+		 
+			spSubject = (Spinner) findViewById(R.id.spSubject);
+			List<String> list = new ArrayList<String>();
+			list.add("Villian");
+			list.add("Hero");
+			list.add("Subject");
+			ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,
+				android.R.layout.simple_spinner_item, list);
+			dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+			spSubject.setAdapter(dataAdapter);
+		  }
+		 
 		  public void addListenerOnSpinnerItemSelection() {
 			spSetting = (Spinner) findViewById(R.id.spSetting);
 			spSetting.setOnItemSelectedListener(new CustomOnItemSelectedListener());
 		  }
+		  
         // get the selected dropdown list value
         public void addListenerOnButton() {
        
         spSetting = (Spinner) findViewById(R.id.spSetting);
-      	spConflict = (Spinner) findViewById(R.id.spSubject);
+      	spSubject = (Spinner) findViewById(R.id.spSubject);
       	spConflict = (Spinner) findViewById(R.id.spConflict);
         btnSend = (Button) findViewById(R.id.button_send);
        
@@ -58,10 +72,10 @@ public class MainActivity extends ActionBarActivity {
       	  public void onClick(View v) {
        
       	    Toast.makeText(MainActivity.this,
-      		"OnClickListener : " + 
-                      "\nSpinner 1 : "+ String.valueOf(spSetting.getSelectedItem()) + 
-                      "\nSpinner 2 : "+ String.valueOf(spSubject.getSelectedItem()) +  
-                      "\nSpinner 2 : "+ String.valueOf(spConflict.getSelectedItem()),
+      		"User Choices : " + 
+                      "\nSetting : "+ String.valueOf(spSetting.getSelectedItem()) + 
+                      "\nSubject: "+ String.valueOf(spSubject.getSelectedItem()) +  
+                      "\nConflict: "+ String.valueOf(spConflict.getSelectedItem()),
       			Toast.LENGTH_SHORT).show();
       	  }
        
