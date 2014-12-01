@@ -36,24 +36,10 @@ public class MainActivity extends ActionBarActivity {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
 	 
-		addItemsOnSpinner2();
 		addListenerOnButton();
 		addListenerOnSpinnerItemSelection();
 	}
-	
-	 public void addItemsOnSpinner2() {
-		 
-			spSubject = (Spinner) findViewById(R.id.spSubject);
-			List<String> list = new ArrayList<String>();
-			list.add("Villian");
-			list.add("Hero");
-			list.add("Subject");
-			ArrayAdapter<String> dataAdapter = new ArrayAdapter<String>(this,
-				android.R.layout.simple_spinner_item, list);
-			dataAdapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-			spSubject.setAdapter(dataAdapter);
-		  }
-		 
+
 		  public void addListenerOnSpinnerItemSelection() {
 			spSetting = (Spinner) findViewById(R.id.spSetting);
 			spSetting.setOnItemSelectedListener(new CustomOnItemSelectedListener());
