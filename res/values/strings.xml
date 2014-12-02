@@ -10,8 +10,8 @@
     <string-array name="setting_arrays">
         <item>America</item>
         <item>The Fifty States</item>
-        <item>Horror Locations</item>
-        <item>War Locations</item>
+        <item>Horror Settings</item>
+        <item>Asia</item>
     </string-array>
     <string-array name="subject_arrays">
         <item>Hero</item>

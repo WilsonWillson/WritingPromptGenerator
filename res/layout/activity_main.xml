@@ -67,7 +67,8 @@
         android:layout_width="302dp"
         android:layout_height="wrap_content"
         android:gravity="center"
-        android:id="@+id/prompt" />
+        android:id="@+id/prompt"
+        android:textSize = "25sp" />
 
 </LinearLayout>
 

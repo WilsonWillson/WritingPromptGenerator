@@ -71,12 +71,21 @@ public class MainActivity extends ActionBarActivity {
        
       	  @Override
       	  public void onClick(View v) {
+      		String setting = GetRandomSetting.RandomSetting(String.valueOf(spSetting.getSelectedItem()));
+      		String subject = GetRandomSubject.RandomSubject(String.valueOf(spSubject.getSelectedItem()));
+      		String conflict = GetRandomConflict.RandomConflict(String.valueOf(spConflict.getSelectedItem()));
+      		String mssg = CreatePrompt.CreateSentence(setting,subject,conflict);
       		TextView writingPrompt = (TextView) findViewById(R.id.prompt);
-      		String mssg;
-      	    mssg = "User Choices : " + 
+      		String prompt;
+      	   /* mssg = "User Choices : " + 
                     "\nSetting : "+ String.valueOf(spSetting.getSelectedItem()) + 
                     "\nSubject: "+ String.valueOf(spSubject.getSelectedItem()) +  
                     "\nConflict: "+ String.valueOf(spConflict.getSelectedItem());
+                    */
+      		 prompt = "User Choices : " + 
+                     "\nSetting : "+ setting + 
+                     "\nSubject: "+ subject +  
+                     "\nConflict: "+ conflict;
       	    writingPrompt.setText(mssg);
       	  }
        
@@ -101,7 +110,7 @@ public class MainActivity extends ActionBarActivity {
 		}
 		return super.onOptionsItemSelected(item);
 	}
-	
+	/*
 	public void sendMessage(AdapterView<?> adapter, View v,
             int position, long id) {
 	    // Do something in response to button
@@ -111,4 +120,5 @@ public class MainActivity extends ActionBarActivity {
 		intent.putExtra(EXTRA_MESSAGE, message);
 		 startActivity(intent);
 	}
+	*/
 }
