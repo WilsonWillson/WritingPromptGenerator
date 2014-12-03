@@ -5,7 +5,7 @@ import java.util.Random;
 public class GetRandomSubject {
 
 	static String heroCompare = "Hero";
-	static String[] hero = {"Soilder","Firefighter"};
+	static String[] hero = {"Soilder","Firefighter",};
 	
 	public static String RandomSubject(String subjectTopic){
 		 String subject = " ";

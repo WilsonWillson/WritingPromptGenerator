@@ -16,11 +16,54 @@ public class GetRandomSetting {
 		"Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"};
 	
 	static String americaCompare = "America";
-	static String[]america ={"Small Town", "Yellowstone"};
+	static String[]america ={"Small Town", "Yellowstone", "New York", "Hollywood", "Chicago", " "};
 		
 	static String horrorLocationsCompare = "Horror Settings";
 	static String[]horrorLocations = {"Camp Crystal Lake", "Elm Street", "a cabin in the woods"};
+	
+	static String bigCityLocationsCompare = "Big City Locations";
+	static String[]bigCityLocations ={};
 		
+	static String smallTownLocationsCompare = "Small Town Locations";
+	static String[]smallTownLocations = {};
+	
+	static String generalSettingsCompare = "General Settings";
+	static String[]generalSettings = {"forrest", "village", "town", "castle", ""};
+	
+	static String europeCompare = "Europe";
+	static String[]europe = {"France"};
+	
+	static String asiaCompare = "Asia";
+	static String[]asia ={"China"};
+	
+	static String africaCompare = "Africa";
+	static String[]africa ={"Algeria","Angola", "Benin","Botswana","Burkina Faso","Burundi",
+		"Cameroon","Cape Verde","Central African Republic","Chad","Comoros","Congo","Côte d’Ivoire",
+		"Djibouti","Egypt","Equatorial Guinea","Eritrea","Ethiopia","Gabon","Gambia","Ghana",
+		"Guinea","Kenya","Lesotho","Liberia","Libya","Madagascar","Malawi","Mali","Mauritania",
+		"Mauritius","Mayotte","Morocco","Mozambique","Namibia","Niger","Nigeria","Rwanda",
+	    "Réunion","Saint Helena","Senegal","Seychelles","Sierra Leone","Somalia","South Africa",
+		"Sudan","Swaziland","São Tomé and Príncipe","Tanzania","Togo","Tunisia","Uganda",
+		"Western Sahara","Zambia","Zimbabwe"};
+
+	static String antarticaCompare = "Antartica";
+	static String[]antartica = {"Antartica"};
+    
+	static String australiaCompare = "Australia";
+	static String[]australia ={"Sydney"};
+	
+	static String NorthAmericaCompare = "North America";
+	static String[]NorthAmerica = {"Canada", "North America", "Mexico"};
+	
+	static String comicBookLocationsCompare = "Comic Book Locations";
+	static String[]comicBookLocations = {};
+
+	static String movieSettingsCompare = "Movie Settings";
+	static String[]movieSettings = {};
+	
+	static String tvShowSettingsCompare = "TV Show Settings";
+	static String[]tvShowSettings = {};
+
 	public static String RandomSetting(String settingTopic){
 		 String setting = " ";
 		 	if(settingTopic.equals(fiftyStatesCompare)){
@@ -29,6 +72,54 @@ public class GetRandomSetting {
 		 	}
 		 	else if(settingTopic.equals(americaCompare)){
 			 	 setting = (america[new Random().nextInt(america.length)]);
+			 		return setting;
+			 	}
+		 	else if(settingTopic.equals(bigCityLocationsCompare)){
+			 	 setting = (bigCityLocations[new Random().nextInt(bigCityLocations.length)]);
+			 		return setting;
+			 	}
+		 	else if(settingTopic.equals(smallTownLocationsCompare)){
+			 	 setting = (smallTownLocations[new Random().nextInt(smallTownLocations.length)]);
+			 		return setting;
+			 	}
+		 	else if(settingTopic.equals(generalSettingsCompare)){
+			 	 setting = (generalSettings[new Random().nextInt(generalSettings.length)]);
+			 		return setting;
+			 	}
+		 	else if(settingTopic.equals(europeCompare)){
+			 	 setting = (europe[new Random().nextInt(europe.length)]);
+			 		return setting;
+			 	}
+		 	else if(settingTopic.equals(asiaCompare)){
+			 	 setting = (asia[new Random().nextInt(asia.length)]);
+			 		return setting;
+			 	}
+		 	else if(settingTopic.equals(africaCompare)){
+			 	 setting = (africa[new Random().nextInt(africa.length)]);
+			 		return setting;
+			 	}
+		 	else if(settingTopic.equals(antarticaCompare)){
+			 	 setting = (antartica[new Random().nextInt(antartica.length)]);
+			 		return setting;
+			 	}
+		 	else if(settingTopic.equals(australiaCompare)){
+			 	 setting = (australia[new Random().nextInt(australia.length)]);
+			 		return setting;
+			 	}
+		 	else if(settingTopic.equals(NorthAmericaCompare)){
+			 	 setting = (NorthAmerica[new Random().nextInt(NorthAmerica.length)]);
+			 		return setting;
+			 	}
+		 	else if(settingTopic.equals(comicBookLocationsCompare)){
+			 	 setting = (comicBookLocations[new Random().nextInt(comicBookLocations.length)]);
+			 		return setting;
+			 	}
+		 	else if(settingTopic.equals(movieSettingsCompare)){
+			 	 setting = (movieSettings[new Random().nextInt(movieSettings.length)]);
+			 		return setting;
+			 	}
+		 	else if(settingTopic.equals(tvShowSettingsCompare)){
+			 	 setting = (tvShowSettings[new Random().nextInt(tvShowSettings.length)]);
 			 		return setting;
 			 	}
 		 	else if(settingTopic.equals(horrorLocationsCompare)){

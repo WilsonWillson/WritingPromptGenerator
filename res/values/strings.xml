@@ -10,18 +10,38 @@
     <string-array name="setting_arrays">
         <item>America</item>
         <item>The Fifty States</item>
-        <item>Horror Settings</item>
+        <item>Big City Locations</item>
+        <item>Small Town Locations</item>
+        <item>General Settings</item>
+        <item>Europe</item>
         <item>Asia</item>
+        <item>Africa</item>
+        <item>Antartica</item>
+        <item>Australia</item>
+        <item>North America</item>
+        <item>Comic Book Locations</item>
+        <item>Movie Settings</item>
+        <item>Tv Show Settings</item>
+        <item>Horror Settings</item>
     </string-array>
     <string-array name="subject_arrays">
+        <item>You</item>
         <item>Hero</item>
         <item>Villian</item>
-        <item>Subject</item>
-        <item>Breaks Code?</item>
+        <item>Proffesion</item>
+        <item>Historial Figure</item>
+        <item>Space</item>
+        <item>Angels and Demons</item>
+        <item>Animal</item>
+        <item>Mythical Creatures</item>
+        <item>Medevil Job</item>
+        <item>Prehistoric Subject</item>
     </string-array>
     <string-array name="conflict_arrays">
+        <item>Daily Problems</item>
         <item>War</item>
         <item>Horror</item>
-        <item>Conflict</item>
+        <item>Medevil</item>
+        <item></item>
     </string-array>
 </resources>
