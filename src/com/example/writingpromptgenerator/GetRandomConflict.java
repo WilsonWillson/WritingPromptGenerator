@@ -8,13 +8,13 @@ public class GetRandomConflict {
 	static String[] war = {"bombs","raid on an office"};
 	
 	static String dailyProblemsCompare = "Daily Problems";
-	static String[] dailyProblems = {"getting to work","buying groceries", };
+	static String[] dailyProblems = {"get to work","buy groceries", };
 	
 	static String horrorCompare = "Horror";
-	static String[] horror = {"a killer is afoot","opening a puzzle box"};
+	static String[] horror = {"a killer is afoot","open a puzzle box"};
 	
 	static String medevilCompare = "Medevil";
-	static String[] medevil = {"raiding a castle","pillageing"};
+	static String[] medevil = {"raid on a castle","pillage"};
 
 	public static String RandomConflict(String conflictTopic){
 		 String conflict = " ";
