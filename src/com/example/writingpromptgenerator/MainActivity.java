@@ -29,6 +29,7 @@ public class MainActivity extends ActionBarActivity {
 	    Spinner spSubject;
 	    Spinner spConflict;
 	    private Button btnSend;
+	    private Button btnSend2;
 
 	    
 	@Override
@@ -47,7 +48,8 @@ public class MainActivity extends ActionBarActivity {
       	spSubject = (Spinner) findViewById(R.id.spSubject);
       	spConflict = (Spinner) findViewById(R.id.spConflict);
         btnSend = (Button) findViewById(R.id.button_send);
-       
+        btnSend2 = (Button) findViewById(R.id.button_short);
+        
         btnSend.setOnClickListener(new OnClickListener() {
        
       	  @Override
@@ -57,21 +59,24 @@ public class MainActivity extends ActionBarActivity {
       		String conflict = GetRandomConflict.RandomConflict(String.valueOf(spConflict.getSelectedItem()));
       		String mssg = CreatePrompt.CreateSentence(setting,subject,conflict);
       		TextView writingPrompt = (TextView) findViewById(R.id.prompt);
-      		String prompt;
-      	   /* mssg = "User Choices : " + 
-                    "\nSetting : "+ String.valueOf(spSetting.getSelectedItem()) + 
-                    "\nSubject: "+ String.valueOf(spSubject.getSelectedItem()) +  
-                    "\nConflict: "+ String.valueOf(spConflict.getSelectedItem());
-                    */
-      		 prompt = "User Choices : " + 
-                     "\nSetting : "+ setting + 
-                     "\nSubject: "+ subject +  
-                     "\nConflict: "+ conflict;
+      	    writingPrompt.setText(mssg);
+      	  }
+       
+      	});
+        
+        
+        btnSend2.setOnClickListener(new OnClickListener() {
+       
+      	  @Override
+      	  public void onClick(View v) {
+      		String mssg = CreateShortPrompt.CreateSentence();
+      		TextView writingPrompt = (TextView) findViewById(R.id.prompt);
       	    writingPrompt.setText(mssg);
       	  }
        
       	});
 	}
+
 
 	@Override
 	public boolean onCreateOptionsMenu(Menu menu) {
