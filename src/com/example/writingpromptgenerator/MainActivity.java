@@ -18,6 +18,7 @@ import android.widget.Spinner;
 import android.widget.TextView;
 import android.widget.Toast;
 import android.content.Intent;
+import android.graphics.Typeface;
 import android.util.Log;
 import android.widget.AdapterView.OnItemSelectedListener;
 
@@ -30,13 +31,15 @@ public class MainActivity extends ActionBarActivity {
 	    Spinner spConflict;
 	    private Button btnSend;
 	    private Button btnSend2;
-
-	    
+	   
 	@Override
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
-	 
+		TextView writingPrompt = (TextView) findViewById(R.id.title);
+		 final Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/DroidSerif-Regular.ttf");
+	      writingPrompt.setTypeface(typeface);
+
 		addListenerOnButton();
 	}
 	
@@ -50,6 +53,9 @@ public class MainActivity extends ActionBarActivity {
         btnSend = (Button) findViewById(R.id.button_send);
         btnSend2 = (Button) findViewById(R.id.button_short);
         
+        final Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/DroidSerif-Regular.ttf");
+        btnSend.setTypeface(typeface);
+        btnSend2.setTypeface(typeface);
         btnSend.setOnClickListener(new OnClickListener() {
        
       	  @Override
@@ -71,6 +77,9 @@ public class MainActivity extends ActionBarActivity {
       	  public void onClick(View v) {
       		String mssg = CreateShortPrompt.CreateSentence();
       		TextView writingPrompt = (TextView) findViewById(R.id.prompt);
+      	      Typeface custom_font = Typeface.createFromAsset(getAssets(),
+      	      "fonts/DroidSerif-Regular.ttf");
+      	      writingPrompt.setTypeface(typeface);
       	    writingPrompt.setText(mssg);
       	  }
        

@@ -5,7 +5,7 @@ import java.util.Random;
 public class GetRandomSubject {
 		
 	static String heroCompare = "Hero";
-	static String[] hero = {"soldier","firefighter",};
+	static String[] hero = {"soldier","firefighter", "police officer", ""};
 	
 	static String villianCompare = "Villian";
 	static String[] villian = {"evil Mastermind","dictator",};
@@ -17,7 +17,7 @@ public class GetRandomSubject {
 	static String[] historicalFigure = {"George Washington","Abe Lincoln",};
     
 	static String spaceCompare = "Space";
-	static String[] space = {"astronaut","alien",};
+	static String[] space = {"astronaut","alien", ""};
 	
 	static String angelAndDemonsCompare = "Angel and Demons";
 	static String[] angelAndDemons = {"Angel","Demon",};

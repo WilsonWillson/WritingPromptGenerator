@@ -10,7 +10,7 @@
     android:background="@drawable/background" >
 
 		<TextView
-		    android:id="@+id/pokemon_name"
+		    android:id="@+id/title"
 		    android:layout_width="fill_parent"
 		    android:layout_height="wrap_content"
 		    android:text="Writing Prompt Generator"
@@ -65,7 +65,8 @@
         android:layout_height="wrap_content"
         android:text="Generate Writing Promt" 
         android:padding="5dip" 
-        android:layout_margin="5dip" />
+        android:layout_margin="5dip"
+        style="?android:attr/borderlessButtonStyle" />
 
     <TextView
         android:layout_width="302dp"
@@ -84,5 +85,6 @@
         android:layout_gravity="bottom"
          android:padding="5dip" 
         android:layout_margin="5dip" 
-        android:text="Generate Short Prompt" />
+        android:text="Generate Short Prompt"
+        style="?android:attr/borderlessButtonStyle" />
 </FrameLayout> 
