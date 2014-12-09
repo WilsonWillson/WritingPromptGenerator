@@ -25,7 +25,6 @@
         <item>Horror Settings</item>
     </string-array>
     <string-array name="subject_arrays">
-        <item>You</item>
         <item>Hero</item>
         <item>Villian</item>
         <item>Proffesion</item>

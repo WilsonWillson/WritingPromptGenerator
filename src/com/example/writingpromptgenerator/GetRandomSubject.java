@@ -3,24 +3,21 @@ package com.example.writingpromptgenerator;
 import java.util.Random;
 
 public class GetRandomSubject {
-
-	static String youCompare = "You";
-	static String you = "you";
-			
+		
 	static String heroCompare = "Hero";
-	static String[] hero = {"Soilder","Firefighter",};
+	static String[] hero = {"soldier","firefighter",};
 	
 	static String villianCompare = "Villian";
-	static String[] villian = {"Evil Mastermind","Dictator",};
+	static String[] villian = {"evil Mastermind","dictator",};
 
 	static String professionCompare = "Profession";
-	static String[] profession = {"Baker","Doctor",};
+	static String[] profession = {"baker","doctor",};
 	
 	static String historicalFigureCompare = "Historical Figure";
 	static String[] historicalFigure = {"George Washington","Abe Lincoln",};
     
 	static String spaceCompare = "Space";
-	static String[] space = {"Astronaught","Alien",};
+	static String[] space = {"astronaut","alien",};
 	
 	static String angelAndDemonsCompare = "Angel and Demons";
 	static String[] angelAndDemons = {"Angel","Demon",};
@@ -43,10 +40,7 @@ public class GetRandomSubject {
 		 	 subject = (hero[new Random().nextInt(hero.length)]);
 		 		return subject;
 		 	}
-		 	if(subjectTopic.equals(youCompare)){
-			 	 subject = you ;
-			 		return subject;
-			 	}
+		 	
 		 	if(subjectTopic.equals(villianCompare)){
 			 	 subject = (villian[new Random().nextInt(villian.length)]);
 			 		return subject;

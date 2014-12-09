@@ -1,6 +1,8 @@
+	<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android" 
+	        xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"> 
 	<LinearLayout 
-	    xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
 	android:orientation="vertical"
@@ -61,7 +63,9 @@
         android:id="@+id/button_send"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:text="Generate Writing Promt" />
+        android:text="Generate Writing Promt" 
+        android:padding="5dip" 
+        android:layout_margin="5dip" />
 
     <TextView
         android:layout_width="302dp"
@@ -70,5 +74,15 @@
         android:id="@+id/prompt"
         android:textSize = "25sp" />
 
-</LinearLayout>
+  
 
+</LinearLayout>
+    <Button
+        android:id="@+id/button_short"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+         android:padding="5dip" 
+        android:layout_margin="5dip" 
+        android:text="Generate Short Prompt" />
+</FrameLayout> 

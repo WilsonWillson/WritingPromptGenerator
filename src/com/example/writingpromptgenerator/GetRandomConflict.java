@@ -5,13 +5,13 @@ import java.util.Random;
 public class GetRandomConflict {
 	
 	static String warCompare = "War";
-	static String[] war = {"bombs","raid on an office"};
+	static String[] war = {"blows up the world","raid an office"};
 	
 	static String dailyProblemsCompare = "Daily Problems";
-	static String[] dailyProblems = {"get to work","buy groceries", };
+	static String[] dailyProblems = {"getting to work","buy groceries", };
 	
 	static String horrorCompare = "Horror";
-	static String[] horror = {"a killer is afoot","open a puzzle box"};
+	static String[] horror = {"a killer is afoot and you have to find him","open a puzzle box"};
 	
 	static String medevilCompare = "Medevil";
 	static String[] medevil = {"raid on a castle","pillage"};

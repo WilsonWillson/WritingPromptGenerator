@@ -16,7 +16,7 @@ public class GetRandomSetting {
 		"Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"};
 	
 	static String americaCompare = "America";
-	static String[]america ={"Small Town", "Yellowstone", "New York", "Hollywood", "Chicago"};
+	static String[]america ={" a small town in the middle of nowhere", "Yellowstone", "New York", "Hollywood", "Chicago"};
 		
 	static String horrorLocationsCompare = "Horror Settings";
 	static String[]horrorLocations = {"Camp Crystal Lake", "Elm Street", "a cabin in the woods"};
@@ -63,7 +63,8 @@ public class GetRandomSetting {
 		"Western Sahara","Zambia","Zimbabwe"};
 
 	static String antarticaCompare = "Antartica";
-	static String[]antartica = {"Antartica"};
+	static String[]antartica = {"Antartica", "South Pole", "Deception Island", "South Pole",
+			"Paradise Harbor", };
     
 	static String australiaCompare = "Australia";
 	static String[]australia ={"Sydney"};
