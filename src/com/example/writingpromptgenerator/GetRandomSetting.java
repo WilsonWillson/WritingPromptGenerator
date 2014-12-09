@@ -16,13 +16,21 @@ public class GetRandomSetting {
 		"Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"};
 	
 	static String americaCompare = "America";
-	static String[]america ={" a small town in the middle of nowhere", "Yellowstone", "New York", "Hollywood", "Chicago"};
+	static String[]america ={" a small town in the middle of nowhere", "Yellowstone", "New York", 
+		"Hollywood", "Chicago", "Houston", "Los Angeles", "Philadelphia", "Phoenix", "San Antonio", 
+		"San Diego", "Dallas", "San Jose", "Austin", "Indianapolis", "San Francisco", "Columbus",
+		"Fort Worth", "Charlotte", "Detroit", "El Paso", "Memphis", "Boston", "Seattle","Denver",
+		"Washington DC", "Nashville", "Baltimore", "Portland", "Oklahoma City", "Milwaukee", "Las Vegas",
+		"Albuquerque", "Tucson", "Fresno", "Sacramento", "Kansas City", "Atlanta", "Omaha", "Miami",
+		"Oakland", "Tulsa", "Cleveland", "The Capitol Building", "Golden Gate Bridge", "Lincoln Memorial",
+		"Mount Rushmore", "Statue of Liberty", "The Whitehouse", "Grand Canyon", "Niagara Falls",
+		"Crater Lake", "Yellowstone National Park", "Hoover Dam",};
 		
 	static String horrorLocationsCompare = "Horror Settings";
 	static String[]horrorLocations = {"Camp Crystal Lake", "Elm Street", "a cabin in the woods"};
 	
 	static String bigCityLocationsCompare = "Big City Locations";
-	static String[]bigCityLocations ={};
+	static String[]bigCityLocations ={""};
 		
 	static String smallTownLocationsCompare = "Small Town Locations";
 	static String[]smallTownLocations = {"the General Store", "the main road"};
@@ -63,8 +71,8 @@ public class GetRandomSetting {
 		"Western Sahara","Zambia","Zimbabwe"};
 
 	static String antarticaCompare = "Antartica";
-	static String[]antartica = {"Antartica", "South Pole", "Deception Island", "South Pole",
-			"Paradise Harbor", };
+	static String[]antartica = {"Antartica", "South Pole", "Deception Island", "Ice Caps",
+			"Paradise Harbor", "Observation Hill", "McMundo Station", "iceberg"};
     
 	static String australiaCompare = "Australia";
 	static String[]australia ={"Sydney"};
