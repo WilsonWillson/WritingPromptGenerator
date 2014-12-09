@@ -36,9 +36,15 @@ public class MainActivity extends ActionBarActivity {
 	protected void onCreate(Bundle savedInstanceState) {
 		super.onCreate(savedInstanceState);
 		setContentView(R.layout.activity_main);
+		TextView settingText = (TextView) findViewById(R.id.setting);
+		TextView subjectText = (TextView) findViewById(R.id.subject);
+		TextView conflictText = (TextView) findViewById(R.id.conflict);
 		TextView writingPrompt = (TextView) findViewById(R.id.title);
 		 final Typeface typeface = Typeface.createFromAsset(getAssets(), "fonts/DroidSerif-Regular.ttf");
-	      writingPrompt.setTypeface(typeface);
+	     settingText.setTypeface(typeface); 
+	     subjectText.setTypeface(typeface); 
+	     conflictText.setTypeface(typeface); 
+		 writingPrompt.setTypeface(typeface);
 
 		addListenerOnButton();
 	}

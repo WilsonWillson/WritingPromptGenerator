@@ -2,82 +2,104 @@
 	        xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="fill_parent" 
     android:layout_height="fill_parent"> 
-	<LinearLayout 
+
+	<LinearLayout
+	    android:layout_width="fill_parent"
+	    android:layout_height="fill_parent"
+	    android:background="@drawable/background"
+	    android:orientation="vertical"
+	    tools:context="com.example.writingpromptgenerator.MainActivity" >
+
+	    <TextView
+	        android:id="@+id/title"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Writing Prompt Generator"
+	        android:textSize="30sp"
+	        android:layout_gravity = "center"
+	        android:gravity="center"
+	        android:layout_marginBottom="23dp" />
+
+	    <TextView
+	         android:id="@+id/setting"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:entries="@array/setting_arrays"
+	        android:text="Select Setting"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="10dp" />
+
+	    <Spinner
+	        android:id="@+id/spSetting"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:entries="@array/setting_arrays"
+	        android:prompt="@string/setting_prompt"
+	        android:layout_marginBottom="3dp" >
+	    </Spinner>
+
+	    <TextView
+	         android:id="@+id/subject"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Select Subejct"
+	        android:textSize="20sp" 
+	        android:layout_marginBottom="5dp"/>
+
+	    <Spinner
+	        android:id="@+id/spSubject"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:entries="@array/subject_arrays"
+	        android:prompt="@string/subject_prompt"
+	        android:layout_marginBottom="1dp" >
+	    </Spinner>
+
+	    <TextView
+	        android:id="@+id/conflict"
+	        android:layout_width="fill_parent"
+	        android:layout_height="wrap_content"
+	        android:text="Select Conflict"
+	        android:textSize="20sp"
+	        android:layout_marginBottom="5dp" />
+
+	    <Spinner
+	        android:id="@+id/spConflict"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:entries="@array/conflict_arrays"
+	        android:prompt="@string/conflict_prompt"
+	        android:layout_marginBottom="4dp" >
+	    </Spinner>
+
+	    <Button
+	        android:id="@+id/button_send"
+	        style="?android:attr/borderlessButtonStyle"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_margin="5dip"
+	        android:padding="5dip"
+	        android:text="Generate Writing Promt" 
+	        android:textSize="20sp"
+	        android:layout_marginTop="20dp"/>
+
+	   
+	</LinearLayout>
+	<LinearLayout
     android:layout_width="fill_parent"
     android:layout_height="fill_parent"
-	android:orientation="vertical"
-    tools:context="com.example.writingpromptgenerator.MainActivity" 
-    android:background="@drawable/background" >
-
-		<TextView
-		    android:id="@+id/title"
-		    android:layout_width="fill_parent"
-		    android:layout_height="wrap_content"
-		    android:text="Writing Prompt Generator"
-		    android:textSize="20sp" />
-
-		<TextView
-		    android:layout_width="fill_parent"
-		    android:layout_height="wrap_content"
-		    android:entries="@array/setting_arrays"
-		    android:text="Select Setting"
-		    android:textSize="20sp" />
- 
-    <Spinner 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        android:id="@+id/spSetting"
-        android:prompt="@string/setting_prompt" 
-        android:entries="@array/setting_arrays">
-    </Spinner>
-    
-    <TextView 
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content" 
-        android:text="Select Subejct" 
-        android:textSize="20sp" />
- 
-    <Spinner 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        android:id="@+id/spSubject"
-        android:prompt="@string/subject_prompt"
-         android:entries="@array/subject_arrays">
-    </Spinner>
-
-    <TextView
-        android:layout_width="fill_parent"
-        android:layout_height="wrap_content"
-        android:text="Select Conflict"
-        android:textSize="20sp" />
- 
-    <Spinner 
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content" 
-        android:id="@+id/spConflict"
-        android:prompt="@string/conflict_prompt"
-        android:entries="@array/conflict_arrays">
-    </Spinner>
-
-    <Button
-        android:id="@+id/button_send"
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:text="Generate Writing Promt" 
-        android:padding="5dip" 
-        android:layout_margin="5dip"
-        style="?android:attr/borderlessButtonStyle" />
-
-    <TextView
-        android:layout_width="302dp"
-        android:layout_height="wrap_content"
-        android:gravity="center"
-        android:id="@+id/prompt"
-        android:textSize = "25sp" />
-
-  
-
-</LinearLayout>
+    android:orientation="vertical"
+    android:layout_marginTop="230dp">
+ <TextView
+	        android:id="@+id/prompt"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_weight="0.35"
+	        android:padding="5dip" 
+	        android:layout_gravity="center"
+	        android:gravity="center"
+	        android:textSize="25sp" />
+ </LinearLayout>
     <Button
         android:id="@+id/button_short"
         android:layout_width="match_parent"
@@ -86,5 +108,7 @@
          android:padding="5dip" 
         android:layout_margin="5dip" 
         android:text="Generate Short Prompt"
-        style="?android:attr/borderlessButtonStyle" />
+        style="?android:attr/borderlessButtonStyle"
+        android:textSize="20sp"
+         android:layout_marginBottom="40dp" />
 </FrameLayout> 
