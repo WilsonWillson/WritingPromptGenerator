@@ -20,8 +20,6 @@
         <item>Australia</item>
         <item>North America</item>
         <item>Comic Book Locations</item>
-        <item>Movie Settings</item>
-        <item>Tv Show Settings</item>
         <item>Horror Settings</item>
     </string-array>
     <string-array name="subject_arrays">

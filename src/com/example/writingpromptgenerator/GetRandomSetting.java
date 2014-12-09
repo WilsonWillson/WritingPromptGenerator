@@ -27,16 +27,22 @@ public class GetRandomSetting {
 		"Crater Lake", "Yellowstone National Park", "Hoover Dam",};
 		
 	static String horrorLocationsCompare = "Horror Settings";
-	static String[]horrorLocations = {"Camp Crystal Lake", "Elm Street", "a cabin in the woods"};
+	static String[]horrorLocations = {"Camp Crystal Lake", "Elm Street", "a cabin in the woods",
+		"an old abandoned manor", "a haunted house", "a graveyard", "some crypts", " the sewer", 
+		"a series of underground tombs", "a ghost town"};
 	
 	static String bigCityLocationsCompare = "Big City Locations";
-	static String[]bigCityLocations ={""};
+	static String[]bigCityLocations ={"the town square", "the hot nightclub", " a tourist trap", "a theme park",
+		"the tallest building in the city"};
 		
 	static String smallTownLocationsCompare = "Small Town Locations";
-	static String[]smallTownLocations = {"the General Store", "the main road"};
+	static String[]smallTownLocations = {"the General Store", "the main road", "the local doctor's office", 
+		"one room schoolhouse"};
 	
 	static String generalSettingsCompare = "General Settings";
-	static String[]generalSettings = {"forrest", "village", "town", "castle"};
+	static String[]generalSettings = {"a forrest", "a village", "a town", "a castle", "a city", "a lake", 
+		"the ocean", "the desert", "space", "the tundra", "a pond", "a stream", " the wetlands", "the Coral Reefs",
+		"an island", "the savanna", "the plains", "the artic", "a mountain"};
 	
 	static String europeCompare = "Europe";
 	static String[]europe = {"Albania","Andorra","Austria","Belarus","Belgium",
@@ -47,8 +53,10 @@ public class GetRandomSetting {
 		"Monaco","Montenegro","Netherlands","Norway","Poland","Portugal","Romania","Russia",
 		"San Marino","Serbia","Serbia and Montenegro","Slovakia","Slovenia","Spain",
 		"Svalbard and Jan Mayen","Sweden","Switzerland","Ukraine","Soviet  Republic",
-	    "United Kingdom","Vatican City","Åland Islands"};
-	
+	    "United Kingdom","Vatican City","Åland Islands", "Eiffel Tower", "The Colosseum",
+	    "Big Ben", " Saint Basil’s Cathedral", "Leaning Tower of Pisa","Tower Bridge",
+	    " Arc de Triumph", "Trevi Fountain", "Rome", "Paris", "Barcelona", "Berlin", "Budapest",
+	    "Florence", "London", "Amsterdam", "Prauge", "Madrid", "Istanbul", "Venice", "Dublin"};
 	static String asiaCompare = "Asia";
 	static String[]asia ={"Afghanistan","Armenia","Azerbaijan","Bahrain","Bangladesh",
 		"Bhutan","Brunei","Cambodia","China","Cyprus","Georgia","Hong Kong","India",
@@ -58,7 +66,9 @@ public class GetRandomSetting {
 		"People's Democratic Republic of Yemen","Philippines","Qatar","Saudi Arabia",
 		"Singapore","South Korea","Sri Lanka","Syria","Taiwan","Tajikistan","Thailand",
 		"Timor-Leste","Turkey","Turkmenistan","United Arab Emirates","Uzbekistan",
-		"Vietnam","Yemen"};
+		"Vietnam","Yemen", "The Killing Fields", "The Forbidden City", "Great Wall of China", 
+		"Angkor Wat", "Taj Mahal","Singapore", "Hong Kong", "Bangkok", "Beijing", "Tokyo",
+		"Seoul", "Shanghai", "Taipei", "New Delhi", "Kyoto", "Bombay", "Hanoi"};
 	
 	static String africaCompare = "Africa";
 	static String[]africa ={"Algeria","Angola", "Benin","Botswana","Burkina Faso","Burundi",
@@ -75,19 +85,15 @@ public class GetRandomSetting {
 			"Paradise Harbor", "Observation Hill", "McMundo Station", "iceberg"};
     
 	static String australiaCompare = "Australia";
-	static String[]australia ={"Sydney"};
+	static String[]australia ={"Sydney", "The Great Barrier Reef", "Melbourne", "Sydney Opera House", 
+		" Heart Reef", "Melbourne Cricket Ground", "New Zealand"};
 	
 	static String NorthAmericaCompare = "North America";
 	static String[]NorthAmerica = {"Canada", "North America", "Mexico"};
 	
 	static String comicBookLocationsCompare = "Comic Book Locations";
-	static String[]comicBookLocations = {"Gotham", "Metropolis"};
-
-	static String movieSettingsCompare = "Movie Settings";
-	static String[]movieSettings = {"Hollywood"};
-	
-	static String tvShowSettingsCompare = "TV Show Settings";
-	static String[]tvShowSettings = {"New York"};
+	static String[]comicBookLocations = {"Gotham", "Metropolis", "Argo City", "Astro City", "Central City",
+		"Hub City", "Kanador", "Mega-City One", "Midwar City", "Smallville"};
 
 	public static String RandomSetting(String settingTopic){
 		 String setting = " ";
@@ -137,14 +143,6 @@ public class GetRandomSetting {
 			 	}
 		 	else if(settingTopic.equals(comicBookLocationsCompare)){
 			 	 setting = (comicBookLocations[new Random().nextInt(comicBookLocations.length)]);
-			 		return setting;
-			 	}
-		 	else if(settingTopic.equals(movieSettingsCompare)){
-			 	 setting = (movieSettings[new Random().nextInt(movieSettings.length)]);
-			 		return setting;
-			 	}
-		 	else if(settingTopic.equals(tvShowSettingsCompare)){
-			 	 setting = (tvShowSettings[new Random().nextInt(tvShowSettings.length)]);
 			 		return setting;
 			 	}
 		 	else if(settingTopic.equals(horrorLocationsCompare)){
