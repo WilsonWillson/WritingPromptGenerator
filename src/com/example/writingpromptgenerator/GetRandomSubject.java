@@ -5,13 +5,19 @@ import java.util.Random;
 public class GetRandomSubject {
 		
 	static String heroCompare = "Hero";
-	static String[] hero = {"soldier","firefighter", "police officer", ""};
+	static String[] hero = {"soldier","firefighter", "police officer"};
 	
 	static String villianCompare = "Villian";
 	static String[] villian = {"evil Mastermind","dictator",};
 
 	static String professionCompare = "Profession";
-	static String[] profession = {"baker","doctor",};
+	static String[] profession = {"baker","doctor","dentist", "nurse", "pharmacist", "physician", "software developer",
+		"web developer", "dental hygienist", "veterinarian", "computer programmer", "iterpreter" ,
+		"financial advisor", "therapist", "marriage counselor","lawyer", "accountant", "middle school teacher",
+		"high school teacher", "teacher", "massage therapist", "paramedic", "hairdresser", "school counselor",
+		"architect", "plumber", "artist", "barista", "auto mechanic", "bus driver", "cook", "receptionist", "secretary",
+		"cashier", "janitor", "electrician", "delivery truck driver", "maid", "butler","security guard", "telemarketer",
+		"consutrtion worker"};
 	
 	static String historicalFigureCompare = "Historical Figure";
 	static String[] historicalFigure = {"George Washington","Abe Lincoln",};

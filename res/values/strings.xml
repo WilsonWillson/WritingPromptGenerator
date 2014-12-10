@@ -39,6 +39,9 @@
         <item>War</item>
         <item>Horror</item>
         <item>Medevil</item>
-        <item></item>
+        <item>Technology</item>
+        <item>Supernatural</item>
+        <item>Society</item>
+        <item>Self</item>
     </string-array>
 </resources>
