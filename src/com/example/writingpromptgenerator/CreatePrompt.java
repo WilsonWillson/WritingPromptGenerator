@@ -17,7 +17,7 @@ public class CreatePrompt {
              break;
     case 4:  sentence = "A " + subject + " is forced to act when " + conflict + " in " + setting;
              break;
-    case 5:  sentence = "A " + conflict + " happens at " + setting + ", while a " + subject + " watches from afar.";
+    case 5:  sentence = "A " + conflict + " happens in " + setting + ", while a " + subject + " watches from afar.";
              break;
     case 6:  sentence = "A " + subject + " can not stop " + conflict + " because he is stuck at " + setting +"." ;
              break;

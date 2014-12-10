@@ -25,13 +25,13 @@ public class GetRandomSubject {
 	static String spaceCompare = "Space";
 	static String[] space = {"astronaut","alien", ""};
 	
-	static String angelAndDemonsCompare = "Angel and Demons";
+	static String angelAndDemonsCompare = "Angels and Demons";
 	static String[] angelAndDemons = {"Angel","Demon",};
 	
 	static String animalCompare = "Animal";
 	static String[] animal = {"duck","elephant",};
 
-	static String mythicalCreatureCompare = "Mythical Creature";
+	static String mythicalCreatureCompare = "Mythical Creatures";
 	static String[] mythicalCreature = {"minotaur","pheonix",};
 	
 	static String medevilJobCompare = "Medevil Job";

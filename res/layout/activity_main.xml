@@ -98,8 +98,7 @@
 	        android:padding="5dip" 
 	        android:layout_gravity="center"
 	        android:gravity="center"
-	        android:textSize="23sp"
-	        android:textStyle="bold" />
+	        android:textSize="23sp" />
  </LinearLayout>
     <Button
         android:id="@+id/button_short"

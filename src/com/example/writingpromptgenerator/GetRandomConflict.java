@@ -15,6 +15,18 @@ public class GetRandomConflict {
 	
 	static String medevilCompare = "Medevil";
 	static String[] medevil = {"raid on a castle","pillage"};
+	
+	static String technologyCompare = "Technology";
+	static String[] technology = {"raid on a castle","pillage"};
+	
+	static String supernaturalCompare = "Supernatural";
+	static String[] supernatural = {"raid on a castle","pillage"};
+	
+	static String societyCompare = "Society";
+	static String[] society = {"raid on a castle","pillage"};
+	
+	static String selfCompare = "Self";
+	static String[] self = {"raid on a castle","pillage"};
 
 	public static String RandomConflict(String conflictTopic){
 		 String conflict = " ";
@@ -32,6 +44,22 @@ public class GetRandomConflict {
 			 	}
 		 	if(conflictTopic.equals(medevilCompare)){
 			 	 conflict = (medevil[new Random().nextInt(medevil.length)]);
+			 		return conflict;
+			 	}
+		 	if(conflictTopic.equals(technologyCompare )){
+			 	 conflict = (technology[new Random().nextInt(technology.length)]);
+			 		return conflict;
+			 	}
+		 	if(conflictTopic.equals(supernaturalCompare)){
+			 	 conflict = (supernatural[new Random().nextInt(supernatural.length)]);
+			 		return conflict;
+			 	}
+		 	if(conflictTopic.equals(societyCompare)){
+			 	 conflict = (society[new Random().nextInt(society.length)]);
+			 		return conflict;
+			 	}
+		 	if(conflictTopic.equals(selfCompare)){
+			 	 conflict = (self[new Random().nextInt(self.length)]);
 			 		return conflict;
 			 	}
 		return null;	
