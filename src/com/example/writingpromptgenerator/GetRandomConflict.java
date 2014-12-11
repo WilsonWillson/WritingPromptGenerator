@@ -6,25 +6,28 @@ public class GetRandomConflict {
 	
 	static String warCompare = "War";
 	static String[] war = {"blow up the world","raid an office", "defuse a bomb", "lead an army against the evil king",
-		""};
+				 "save Private Ryan", "overthrow a dictator", "inflitrate a goverment", "attack behind enemy lines", 
+				 "save hostages", " attack the frontlines", " bomb a camp", " assassinate a dictator"};
 	
 	static String dailyProblemsCompare = "Daily Problems";
-	static String[] dailyProblems = {"getting to work","buy groceries", };
+	static String[] dailyProblems = {"get to work","buy groceries", " avoid the boss while texting on the job and not doing any work", 
+				" get out of traffic", " cook a meal", " succesfully go on a date", " unsueccesfully go on a date", 
+				" take a test", " " };
 	
 	static String horrorCompare = "Horror";
-	static String[] horror = {"a killer is afoot and you have to find him","open a puzzle box"};
+	static String[] horror = {"find a killer","open a puzzle box", "kill a serial killer", ""};
 	
 	static String medevilCompare = "Medevil";
-	static String[] medevil = {"raid on a castle","pillage"};
+	static String[] medevil = {"raid a castle","pillage a village", "forge a mythical sword", "fight a dragon",
+						" marry a princess", ""};
 	
 	static String technologyCompare = "Technology";
-	static String[] technology = {"raid on a castle","pillage"};
+	static String[] technology = {" build a robot", " overthrow our robot overlords", " go back in time to safe JFK", 
+					" go back to the future", " destroy the deathstar", " bodly go where no one has gone before", 
+					" "};
 	
 	static String supernaturalCompare = "Supernatural";
-	static String[] supernatural = {"raid on a castle","pillage"};
-	
-	static String societyCompare = "Society";
-	static String[] society = {"raid on a castle","pillage"};
+	static String[] supernatural = {" find a ghost"," exorcise a demon"};
 	
 	static String selfCompare = "Self";
 	static String[] self = {"raid on a castle","pillage"};
@@ -53,10 +56,6 @@ public class GetRandomConflict {
 			 	}
 		 	if(conflictTopic.equals(supernaturalCompare)){
 			 	 conflict = (supernatural[new Random().nextInt(supernatural.length)]);
-			 		return conflict;
-			 	}
-		 	if(conflictTopic.equals(societyCompare)){
-			 	 conflict = (society[new Random().nextInt(society.length)]);
 			 		return conflict;
 			 	}
 		 	if(conflictTopic.equals(selfCompare)){

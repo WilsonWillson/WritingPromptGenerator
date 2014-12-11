@@ -13,9 +13,9 @@ public class CreatePrompt {
              break;
     case 2:  sentence = "In " + setting + ", " + subject + " " + conflict + ".";
              break;
-    case 3:  sentence =  subject + " is forced to act when they must " + conflict + " in " + setting;
+    case 3:  sentence =  subject + " is forced to act when he/she must " + conflict + " in " + setting;
              break;
-    case 4:  sentence = "A group" + conflict + " happens in " + setting + ", while " + subject + " watches from afar.";
+    case 4:  sentence = "A mysterious person begins to " + conflict + " happens in " + setting + ", while " + subject + " watches from afar.";
              break;
     case 6:  sentence =  subject + " can not stop an evil organization when they " + conflict + " because he is stuck at " + setting +"." ;
              break;
