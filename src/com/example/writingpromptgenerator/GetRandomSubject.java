@@ -5,23 +5,23 @@ import java.util.Random;
 public class GetRandomSubject {
 		
 	static String heroCompare = "Hero";
-	static String[] hero = {"soldier","firefighter", "police officer", "Mahatma Gandhi", "Nelson Mandela",
+	static String[] hero = {"a soldier","a firefighter", "a police officer", "Mahatma Gandhi", "Nelson Mandela",
 			"Martin Luther King Jr.", "John Rambo", "Forrest Gump", "Sherlock Holmes", "Frodo Baggins",
 			"Rocky Balboa", "Han Solo", "Indiana Jones", "Spartacus", };
 	
 	static String villianCompare = "Villian";
-	static String[] villian = {"evil Mastermind","dictator", "overlord", "tyrant", "Hitler",
-	"evil genius", "Attila the Hun", "Vlad Dracula", "Jack the Ripper", "Buffalo Bill", "Hannibal lecter",
+	static String[] villian = {"an evil Mastermind","a dictator", "a overlord", "a tyrant", "Hitler",
+	"an evil genius", "Attila the Hun", "Vlad Dracula", "Jack the Ripper", "Buffalo Bill", "Hannibal lecter",
 	"Ivan Drago","Norman Bates", "The Wicked Witch of the West", "Freddy Krueger" };
 
 	static String professionCompare = "Profession";
-	static String[] profession = {"baker","doctor","dentist", "nurse", "pharmacist", "physician", "software developer",
-		"web developer", "dental hygienist", "veterinarian", "computer programmer", "iterpreter" ,
-		"financial advisor", "therapist", "marriage counselor","lawyer", "accountant", "middle school teacher",
-		"high school teacher", "teacher", "massage therapist", "paramedic", "hairdresser", "school counselor",
-		"architect", "plumber", "artist", "barista", "auto mechanic", "bus driver", "cook", "receptionist", "secretary",
-		"cashier", "janitor", "electrician", "delivery truck driver", "maid", "butler","security guard", "telemarketer",
-		"consutrtion worker"};
+	static String[] profession = {"a baker","a doctor","a dentist", "a nurse", "a pharmacist", "a physician", "a software developer",
+		"a web developer", "a dental hygienist", "a veterinarian", "a computer programmer", "a iterpreter" ,
+		"a financial advisor", "a therapist", "a marriage counselor","a lawyer", "an accountant", "a middle school teacher",
+		"a high school teacher", "a teacher", "a massage therapist", "a paramedic", "a hairdresser", "a school counselor",
+		"an architect", "plumber", "an artist", "a barista", "an auto mechanic", "a bus driver", "a cook", "a receptionist", "a secretary",
+		"a cashier", "a janitor", "a electrician", "a delivery truck driver", "a maid", "a butler","a security guard", "a telemarketer",
+		"a consutrtion worker"};
 	
 	static String historicalFigureCompare = "Historical Figure";
 	static String[] historicalFigure = {"George Washington","Abe Lincoln", "Napoleon", "William Shakespeare", "Aristotle",
@@ -34,34 +34,34 @@ public class GetRandomSubject {
 		"King Arthur", "Michelangelo", "Nikola Tesla", "Joan of Arc", "Otto von Bismarck"};
     
 	static String spaceCompare = "Space Fictional/Real";
-	static String[] space = {"astronaut","alien", "little gray men", "scientist", "jedi", "stormtroppers", "bith", "cerean", 
-		"corellian", "ewok", "gamorrean", "gungan", "hutt", "jawa", "kel dor", "rodian", "wookie", "vulcan", "andorian", "klingon",
+	static String[] space = {"an astronaut","an alien", "little gray men", "a scientist", "a jedi", "a stormtroppers", "a bith", "a cerean", 
+		"a corellian", "a ewok", "a gamorrean", "a gungan", "a hutt", "a jawa", "a kel dor", "a rodian", "a wookie", "a vulcan", "an andorian", "a klingon",
 		"Neil Armstrong", "Captain James T. Kirk", "Luke Skywalker", "Han Solo"};
 	
 	static String angelAndDemonsCompare = "Angels and Demons";
-	static String[] angelAndDemons = {"angel","demon","fallen angel", "familiar", "jinn", "succubus",
-		"imp", "poltergeist", "ghost", "spirt", "seraphim", "virtues", "principalities", "archangels",
-		"devil", "dominions"};
+	static String[] angelAndDemons = {"an angel","a demon","a fallen angel", "a familiar", "a jinn", "a succubus",
+		"a imp", "a poltergeist", "a ghost", "a spirt", "a seraphim", "a virtue", "a principalitie", "a archangel",
+		"a devil", "a dominions"};
 	
 	static String animalCompare = "Animal";
-	static String[] animal = {"duck","elephant","tiger", "jaguar", "monkey", "dog", "lion", "weasel", 
-		"deer", "octopus", "reindeer", "komodo dragon", "snake", "yak", "cheetah", "fish", "mole",
-		"wolf", "zebra", "bear", "panda", "centipede", "quail", "gecko", "lizard", "dolphin", 
-		"squirrel", "squid", "spider", "ants", "baboons", "sea lions", "orangutans", "pigeon", "crow",
-		"donkey", "cow", "turkey","sheep", "racoon", "horse", "falcon", "rat", "owl", "whale", 
-		"parrot", "pig", "chimpanzee"};
+	static String[] animal = {"a duck","a elephant","a tiger", "a jaguar", "a monkey", "a dog", "a lion", "a weasel", 
+		"a deer", "a octopus", "a reindeer", "a komodo dragon", "a snake", "a yak", "a cheetah", "a fish", "a mole",
+		"a wolf", "a zebra", "a bear", "a panda", "a centipede", "a quail", "a gecko", "a lizard", "a dolphin", 
+		"a squirrel", "squid", "a spider", "a ant", "a baboons", "a sea lion", "a orangutans", "a pigeon", "a crow",
+		"a donkey", "a cow", "a turkey","a sheep", "a racoon", "a horse", "a falcon", "a rat", "a owl", "a whale", 
+		"a parrot", "a pig", "a chimpanzee"};
 
 	static String mythicalCreatureCompare = "Mythical Creatures";
-	static String[] mythicalCreature = {"minotaur","pheonix","dragon", "unicorn", "pegasus", "sphinx",
-		"cerberus", "minotaur", "gargoyle", "ogre", "troll", "leviathan", "griffin", "leviathan", 
-		"hydra", "centaur", "ghoul", "griffin", "harpy", "hippogriff", "chimera", "mermaid", "fairy",
-		"medusa", "vampire", "cyclops", "basilisk", "golem", "imp", "sirens", "shapeshifters", "wisp"};
+	static String[] mythicalCreature = {"a minotaur","a pheonix","a dragon", "a unicorn", "a pegasus", "a sphinx",
+		"a cerberus", "a minotaur", "a gargoyle", "a ogre", "a troll", "a leviathan", "a griffin", "a leviathan", 
+		"a hydra", "a centaur", "a ghoul", "a griffin", "a harpy", "hippogriff", "a chimera", "a mermaid", "a fairy",
+		"a medusa", "a vampire", "a cyclops", "a basilisk", "a golem", "a imp", "a siren", "a shapeshifters", "a wisp"};
 	
 	static String medevilJobCompare = "Medevil Job";
-	static String[] medevilJob = {"blacksmith","forger","apothecary", "artist", "armorer", "candlemaker", 
-		"carpenter", "jester", "knight", "king", "prince", "painter ", "scribe", "serf", "vassal", 
-		"nobel", "servant", "peasant", "assassin", "preist", "tailor", "falconer", "stonemason", 
-		"miller", "fishmonger", "theif"};
+	static String[] medevilJob = {"a blacksmith","a forger","a apothecary", "an artist", "an armorer", "a candlemaker", 
+		"a carpenter", "a jester", "a knight", "a king", "a prince", "a painter ", "a scribe", "a serf", "a vassal", 
+		"a nobel", "a servant", "a peasant", "an assassin", "a preist", "a tailor", "a falconer", "a stonemason", 
+		"a miller", "a fishmonger", "a theif"};
 	
 	static String comicBookCompare = "Comic Book Characters";
 	static String[] comicBook = {"Abe Sapien", "Hellboy", "Apocalypse", "Iron Fist", "Static Shock", 
@@ -110,6 +110,10 @@ public class GetRandomSubject {
 			 	}
 		 	if(subjectTopic.equals(medevilJobCompare)){
 			 	 subject = (medevilJob[new Random().nextInt(medevilJob.length)]);
+			 		return subject;
+			 	}
+		 	if(subjectTopic.equals(comicBookCompare)){
+			 	 subject = (comicBook[new Random().nextInt(comicBook.length)]);
 			 		return subject;
 			 	}
 		return null;	
