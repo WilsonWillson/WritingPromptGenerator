@@ -27,7 +27,9 @@ public class GetRandomConflict {
 	
 	static String medevilCompare = "Medevil";
 	static String[] medevil = {"raid a castle","pillage a village", "forge a mythical sword", "fight a dragon",
-						" marry a princess", " "};
+						" marry a princess", " win a jousting competition", " fight in the crusades", 
+						"reclaim your rightful place on the throne", " lead a rebillion against an evil king", 
+						" survive the black plauge", "fight the black knight", "catch Robin Hood", "team up with Robin Hood"};
 	
 	static String technologyCompare = "Technology";
 	static String[] technology = {" build a robot", " overthrow our robot overlords", " go back in time to safe JFK", 
@@ -38,11 +40,14 @@ public class GetRandomConflict {
 					" figure out what happens next time on Dragon Ball Z", "unite the dark side and light side of the force"};
 	
 	static String supernaturalCompare = "Supernatural";
-	static String[] supernatural = {"communicate with a ghost"," exorcise a demon", " explore ancient tombs", " stop a cult from resurrecting a demon",
-		"catch a ghost"};
+	static String[] supernatural = {"communicate with a ghost","exorcise a demon", "explore ancient tombs", "stop a cult from resurrecting a demon",
+		"catch a ghost", "watch a tape that kills you after 7 days", "explore a haunted house", "find old mysterious tapes with haunting images on them",
+		"call the ghostbusters", "team up with the ghostbusters", "tape an episode of Ghost Hunters", "fall in love with a ghost"};
 	
 	static String selfCompare = "Self";
-	static String[] self = {"discover the true meaning of life","find love"};
+	static String[] self = {"discover the true meaning of life","find love", "become a better person", "develop an exercise schedule and actually stick to it",
+		"stick to a new years resolution", "overcome his/her own disbelif and accomplish a goal", "overcome a character flaw", 
+		"stop being a jerk"};
 
 	public static String RandomConflict(String conflictTopic){
 		 String conflict = " ";
