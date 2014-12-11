@@ -27,12 +27,12 @@
         <item>Villian</item>
         <item>Profession</item>
         <item>Historical Figure</item>
-        <item>Space</item>
+        <item>Space Fictional/Real</item>
         <item>Angels and Demons</item>
         <item>Animal</item>
         <item>Mythical Creatures</item>
         <item>Medevil Job</item>
-        <item>Prehistoric Subject</item>
+        <item>Comic Book Characters</item>
     </string-array>
     <string-array name="conflict_arrays">
         <item>Daily Problems</item>
