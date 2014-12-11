@@ -16,7 +16,7 @@ public class GetRandomSetting {
 		"Vermont","Virginia","Washington","West Virginia","Wisconsin","Wyoming"};
 	
 	static String americaCompare = "America";
-	static String[]america ={" a small town in the middle of nowhere", "Yellowstone", "New York", 
+	static String[]america ={"small town in the middle of nowhere", "Yellowstone", "New York", 
 		"Hollywood", "Chicago", "Houston", "Los Angeles", "Philadelphia", "Phoenix", "San Antonio", 
 		"San Diego", "Dallas", "San Jose", "Austin", "Indianapolis", "San Francisco", "Columbus",
 		"Fort Worth", "Charlotte", "Detroit", "El Paso", "Memphis", "Boston", "Seattle","Denver",
@@ -35,10 +35,6 @@ public class GetRandomSetting {
 	static String[]bigCityLocations ={"the town square", "the hot nightclub", " a tourist trap", "a theme park",
 		"the tallest building in the city"};
 		
-	static String smallTownLocationsCompare = "Small Town Locations";
-	static String[]smallTownLocations = {"the General Store", "the main road", "the local doctor's office", 
-		"one room schoolhouse"};
-	
 	static String generalSettingsCompare = "General Settings";
 	static String[]generalSettings = {"a forrest", "a village", "a town", "a castle", "a city", "a lake", 
 		"the ocean", "the desert", "space", "the tundra", "a pond", "a stream", " the wetlands", "the Coral Reefs",
@@ -107,10 +103,6 @@ public class GetRandomSetting {
 			 	}
 		 	else if(settingTopic.equals(bigCityLocationsCompare)){
 			 	 setting = (bigCityLocations[new Random().nextInt(bigCityLocations.length)]);
-			 		return setting;
-			 	}
-		 	else if(settingTopic.equals(smallTownLocationsCompare)){
-			 	 setting = (smallTownLocations[new Random().nextInt(smallTownLocations.length)]);
 			 		return setting;
 			 	}
 		 	else if(settingTopic.equals(generalSettingsCompare)){

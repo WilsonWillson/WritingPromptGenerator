@@ -41,7 +41,7 @@ public class GetRandomSubject {
 	static String angelAndDemonsCompare = "Angels and Demons";
 	static String[] angelAndDemons = {"an angel","a demon","a fallen angel", "a familiar", "a jinn", "a succubus",
 		"a imp", "a poltergeist", "a ghost", "a spirt", "a seraphim", "a virtue", "a principalitie", "a archangel",
-		"a devil", "a dominions"};
+		"a devil", "a dominion"};
 	
 	static String animalCompare = "Animal";
 	static String[] animal = {"a duck","a elephant","a tiger", "a jaguar", "a monkey", "a dog", "a lion", "a weasel", 
@@ -55,7 +55,7 @@ public class GetRandomSubject {
 	static String[] mythicalCreature = {"a minotaur","a pheonix","a dragon", "a unicorn", "a pegasus", "a sphinx",
 		"a cerberus", "a minotaur", "a gargoyle", "a ogre", "a troll", "a leviathan", "a griffin", "a leviathan", 
 		"a hydra", "a centaur", "a ghoul", "a griffin", "a harpy", "hippogriff", "a chimera", "a mermaid", "a fairy",
-		"a medusa", "a vampire", "a cyclops", "a basilisk", "a golem", "a imp", "a siren", "a shapeshifters", "a wisp"};
+		"a medusa", "a vampire", "a cyclops", "a basilisk", "a golem", "a imp", "a siren", "a shapeshifter", "a wisp"};
 	
 	static String medevilJobCompare = "Medevil Job";
 	static String[] medevilJob = {"a blacksmith","a forger","a apothecary", "an artist", "an armorer", "a candlemaker", 
