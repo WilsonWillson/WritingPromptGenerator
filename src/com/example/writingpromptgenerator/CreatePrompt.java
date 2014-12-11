@@ -9,21 +9,19 @@ public class CreatePrompt {
 	Random generator = new Random(); 
 	int choice = generator.nextInt(10) + 1;
 	switch (choice) {
-    case 1:  sentence =  subject + " " + conflict + " in " + setting + ".";
+    case 1:  sentence =  subject + " has to " + conflict + " in " + setting + ".";
              break;
     case 2:  sentence = "In " + setting + ", " + subject + " " + conflict + ".";
              break;
-    case 3:  sentence = "In the dead of winter, a " + conflict + " happens in front of " + subject + " in " + setting + ".";
+    case 3:  sentence =  subject + " is forced to act when they must " + conflict + " in " + setting;
              break;
-    case 4:  sentence =  subject + " is forced to act when " + conflict + " in " + setting;
+    case 4:  sentence = "A group" + conflict + " happens in " + setting + ", while " + subject + " watches from afar.";
              break;
-    case 5:  sentence = "A " + conflict + " happens in " + setting + ", while " + subject + " watches from afar.";
-             break;
-    case 6:  sentence =  subject + " can not stop " + conflict + " because he is stuck at " + setting +"." ;
+    case 6:  sentence =  subject + " can not stop an evil organization when they " + conflict + " because he is stuck at " + setting +"." ;
              break;
     case 7:  sentence = "A succesful attempt to " + conflict +" in " + setting + ", brings a group of " + subject +"s together.";
              break;
-    case 8:  sentence =  subject + " on his day off is enjoying his time in " + setting + " when a threatening figure attempts to " + conflict + " ." ; //Double Subject?
+    case 8:  sentence =  subject + " on his day off is enjoying his time in " + setting + " when a threatening figure attempts to " + conflict + " ." ;
              break;
     case 9:  sentence = "The peaceful " + setting + " is actually planning to " + conflict + ". Only " + subject + " can stop them.";
              break;

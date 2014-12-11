@@ -5,7 +5,8 @@ import java.util.Random;
 public class GetRandomConflict {
 	
 	static String warCompare = "War";
-	static String[] war = {"blow up the world","raid an office"};
+	static String[] war = {"blow up the world","raid an office", "defuse a bomb", "lead an army against the evil king",
+		""};
 	
 	static String dailyProblemsCompare = "Daily Problems";
 	static String[] dailyProblems = {"getting to work","buy groceries", };
