@@ -38,7 +38,7 @@ public class GetRandomSetting {
 	static String generalSettingsCompare = "General Settings";
 	static String[]generalSettings = {"a forrest", "a village", "a town", "a castle", "a city", "a lake", 
 		"the ocean", "the desert", "space", "the tundra", "a pond", "a stream", " the wetlands", "the Coral Reefs",
-		"an island", "the savanna", "the plains", "the artic", "a mountain"};
+		"an island", "the savanna", "the plains", "the arctic", "a mountain"};
 	
 	static String europeCompare = "Europe";
 	static String[]europe = {"Albania","Andorra","Austria","Belarus","Belgium",
