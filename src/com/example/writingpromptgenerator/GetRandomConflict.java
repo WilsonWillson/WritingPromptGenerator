@@ -25,7 +25,7 @@ public class GetRandomConflict {
 		" survive the Wicker Man festival", " catch the Phantom of the Opera", "find an american werewolf in london",
 		" escape a collpased cave", " explore the pyramids", " figure out who the killer is at the party"};
 	
-	static String medevilCompare = "Medevil";
+	static String medevilCompare = "Medieval";
 	static String[] medevil = {"raid a castle","pillage a village", "forge a mythical sword", "fight a dragon",
 						" marry a princess", " win a jousting competition", " fight in the crusades", 
 						"reclaim your rightful place on the throne", " lead a rebillion against an evil king", 

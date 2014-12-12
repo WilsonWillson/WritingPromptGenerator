@@ -30,14 +30,14 @@
         <item>Angels and Demons</item>
         <item>Animal</item>
         <item>Mythical Creatures</item>
-        <item>Medevil Job</item>
+        <item>Medieval Job</item>
         <item>Comic Book Characters</item>
     </string-array>
     <string-array name="conflict_arrays">
         <item>Daily Problems</item>
         <item>War</item>
         <item>Horror</item>
-        <item>Medevil</item>
+        <item>Medieval</item>
         <item>Technology</item>
         <item>Supernatural</item>
         <item>Self</item>

@@ -57,7 +57,7 @@ public class GetRandomSubject {
 		"a hydra", "a centaur", "a ghoul", "a griffin", "a harpy", "hippogriff", "a chimera", "a mermaid", "a fairy",
 		"a medusa", "a vampire", "a cyclops", "a basilisk", "a golem", "a imp", "a siren", "a shapeshifter", "a wisp"};
 	
-	static String medevilJobCompare = "Medevil Job";
+	static String medevilJobCompare = "Medieval Job";
 	static String[] medevilJob = {"a blacksmith","a forger","a apothecary", "an artist", "an armorer", "a candlemaker", 
 		"a carpenter", "a jester", "a knight", "a king", "a prince", "a painter ", "a scribe", "a serf", "a vassal", 
 		"a nobel", "a servant", "a peasant", "an assassin", "a preist", "a tailor", "a falconer", "a stonemason", 

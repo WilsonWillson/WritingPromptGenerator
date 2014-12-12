@@ -80,7 +80,7 @@
 	        android:layout_height="wrap_content"
 	        android:layout_margin="5dip"
 	        android:padding="5dip"
-	        android:text="Generate Writing Promt" 
+	        android:text="Generate Writing Prompt" 
 	        android:textSize="20sp"
 	        android:layout_marginTop="20dp"/>
 
